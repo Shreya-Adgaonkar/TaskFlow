@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --font-base: 'Inter', system-ui, sans-serif;
+
+  --color-todo: #888780;
+  --color-progress: #378ADD;
+  --color-done: #1D9E75;
+
+  --color-priority-high-bg: #FCEBEB;
+  --color-priority-high-text: #A32D2D;
+  --color-priority-medium-bg: #FAEEDA;
+  --color-priority-medium-text: #633806;
+  --color-priority-low-bg: #EAF3DE;
+  --color-priority-low-text: #27500A;
+
+  --border-radius-sm: 6px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+body {
+  font-family: var(--font-base);
+  font-size: 14px;
+  line-height: 1.6;
+  background-color: #f4f4f1;
+  color: #1a1a1a;
+}
